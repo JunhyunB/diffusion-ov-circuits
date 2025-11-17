@@ -110,10 +110,10 @@ Our approach involves three main steps:
 3. **Spectral Modulation**: Selectively nullify or amplify concept-related singular vectors during generation
 
 <p align="center">
-  <img src="figures/fig1.png" alt="Van Gogh Style Modulation" width="80%">
+  <img src="figures/fig2.png" alt="Spectral vs Head-level Modulation" width="90%">
 </p>
 
-*Effect of modulating outputs of high-contribution heads for the "Vincent van Gogh" concept at different strength levels (α).*
+*Comparison between spectral-level and head-level modulation. (Top) Scaling identified spectral components versus (bottom) scaling entire attention head outputs. The current code implements spectral-level modulation.*
 
 For more details, please refer to our [paper](https://github.com/JunhyunB/diffusion-ov-circuits) (currently not available).
 
