@@ -9,6 +9,12 @@ Official implementation of **"Mechanistic Dissection of Cross-Attention Subspace
 
 This repository contains code for analyzing and manipulating semantic concepts in text-to-image diffusion models through spectral decomposition of cross-attention layers. Our method reveals how concepts are encoded in low-dimensional spectral subspaces of OV (Output-Value) circuits.
 
+<p align="center">
+  <img src="figures/fig3.png" alt="Concept Isolation Results" width="100%">
+</p>
+
+*Spectral isolation of semantic concepts. For each concept, we show generated images with concept components removed (top) and with only concept components activated (bottom), using different percentages of spectral components.*
+
 ### Key Features
 
 - **Spectral Analysis**: SVD-based decomposition of cross-attention OV matrices
@@ -102,6 +108,12 @@ Our approach involves three main steps:
 1. **SVD Decomposition**: Decompose each cross-attention head's OV matrix into singular vectors
 2. **Contribution Analysis**: Measure how much each singular vector contributes to the concept by comparing base and concept prompt embeddings
 3. **Spectral Modulation**: Selectively nullify or amplify concept-related singular vectors during generation
+
+<p align="center">
+  <img src="figures/fig1.png" alt="Van Gogh Style Modulation" width="80%">
+</p>
+
+*Effect of modulating outputs of high-contribution heads for the "Vincent van Gogh" concept at different strength levels (α).*
 
 For more details, please refer to our [paper](https://github.com/JunhyunB/diffusion-ov-circuits) (currently not available).
 
