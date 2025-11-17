@@ -48,12 +48,14 @@ The repository provides example notebooks for different concepts:
 1. **NSFW Content Removal** (`test_naked.ipynb`)
 2. **Artistic Style Manipulation** (`test_picasso.ipynb`)
 
-### Basic Example
+Simply open and run the notebooks to see the spectral analysis and concept manipulation in action.
+
+### Basic Usage
+
+The `ProgressiveSVController` class (defined in the notebooks) provides the main functionality:
 
 ```python
-from controller import ProgressiveSVController
-
-# Initialize controller
+# Initialize controller (ProgressiveSVController class is defined in the notebooks)
 controller = ProgressiveSVController()
 
 # Define prompt pairs (base prompt, concept prompt)
