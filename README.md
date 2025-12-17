@@ -45,6 +45,11 @@ To use Stable Diffusion 2.1, you need to:
 huggingface-cli login
 ```
 
+> **Note (Dec 2025):** The official `stabilityai/stable-diffusion-2-1-base` model may be temporarily unavailable on Hugging Face. If you encounter a 404 error, you can use the community mirror by modifying the `model_name` parameter:
+> ```python
+> controller = ProgressiveSVController(model_name="Manojb/stable-diffusion-2-1-base")
+> ```
+
 ## Usage
 
 ### Quick Start
