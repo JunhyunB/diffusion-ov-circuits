@@ -2,7 +2,8 @@
 
 Official implementation of **"Mechanistic Dissection of Cross-Attention Subspaces in Text-to-Image Diffusion Models"** (AAAI 2026).
 
-[![Paper](https://img.shields.io/badge/Paper-AAAI%202026-blue)](https://github.com/JunhyunB/diffusion-ov-circuits)
+[![Paper](https://img.shields.io/badge/Paper-AAAI%202026-blue)](https://underline.io/events/501/posters/21781/poster/140292-mechanistic-dissection-of-cross-attention-subspaces-in-text-to-image-diffusion-models?tab=poster)
+[![Poster & Video](https://img.shields.io/badge/Poster%20%26%20Video-Underline-orange)](https://underline.io/events/501/posters/21781/poster/140292-mechanistic-dissection-of-cross-attention-subspaces-in-text-to-image-diffusion-models?tab=poster)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ## Overview
@@ -120,7 +121,7 @@ Our approach involves three main steps:
 
 *Comparison between spectral-level and head-level modulation. (Top) Scaling identified spectral components versus (bottom) scaling entire attention head outputs. The current code implements spectral-level modulation.*
 
-For more details, please refer to our [paper](https://github.com/JunhyunB/diffusion-ov-circuits) (currently not available).
+For more details, please refer to our [poster, presentation video, and paper on Underline](https://underline.io/events/501/posters/21781/poster/140292-mechanistic-dissection-of-cross-attention-subspaces-in-text-to-image-diffusion-models?tab=poster).
 
 
 ## License
